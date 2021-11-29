@@ -1,0 +1,7 @@
+{
+  "require": {
+    "pearl/csv-json-converter": "^1.0"
+  },
+  "name": "uru/billing_for_snt",
+  "description": "React Billing app"
+}

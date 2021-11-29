@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f08b4f722478be059e984fe2b073b7b2",
+    "packages": [
+        {
+            "name": "pearl/csv-json-converter",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pearlkrishn/csv-json-converter.git",
+                "reference": "1c12dfd432cf1dc66de64f337b11f2f639e93c25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pearlkrishn/csv-json-converter/zipball/1c12dfd432cf1dc66de64f337b11f2f639e93c25",
+                "reference": "1c12dfd432cf1dc66de64f337b11f2f639e93c25",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.0|~6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pearl\\CsvJsonConverter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "pearlkrishn",
+                    "email": "pearlkrishn@gmail.com"
+                }
+            ],
+            "description": "Convert CSV to JSON and JSON to CSV file format using PHP",
+            "keywords": [
+                "csv",
+                "csv to json",
+                "data converter",
+                "json",
+                "json to csv",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/pearlkrishn/csv-json-converter/issues",
+                "source": "https://github.com/pearlkrishn/csv-json-converter/tree/master"
+            },
+            "time": "2018-03-13T14:16:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

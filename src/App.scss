@@ -1,0 +1,163 @@
+$border-color: #000;
+
+@import "~bootstrap/scss/bootstrap";
+
+$font-size-lg: $font-size-base * 1.25;
+$font-size-sm: $font-size-base * .925;
+$font-size-xs: $font-size-base * .7;
+$line-height-sm: 1.3;
+
+
+.App {
+  background-color: #cfcfcf;
+
+  .invoice {
+    font-family: "Times New Roman", sans-serif;
+    font-size: $font-size-base;
+    line-height: $line-height-sm;
+    background-color: #fff;
+    padding: $spacer*2;
+    height: $spacer *50;
+
+    &__left {
+      font-size: $font-size-sm;
+    }
+
+    &__right {
+      font-size: $font-size-sm;
+    }
+
+    &__middle {
+      padding-top: calc(60vh / 2);
+
+      .text {
+        transform: rotate(-90deg);
+        letter-spacing: $font-size-base/2;
+        white-space: nowrap;
+        text-align: center;
+      }
+
+      .vl {
+        border-left: 1px dashed $black;
+        height: 100%;
+        position: absolute;
+        left: 75%;
+        margin-left: -3px;
+        top: 0;
+
+        &--b {
+          border-left: 1px solid $black;
+          left: 30%;
+        }
+
+        &--bb {
+          border-left: 1px solid $black;
+          left: 90%;
+        }
+      }
+    }
+
+    .table {
+      &_border {
+        border: 1px solid $black;
+
+        &--bold {
+          border-top: 2px solid $black;
+          border-left: 2px solid $black;
+          border-right: 2px solid $black;
+
+          &:last-of-type {
+            border-bottom: 2px solid $black;
+          }
+        }
+
+        &--bold-row {
+          border-top: 2px solid $black;
+          border-bottom: 2px solid $black;
+        }
+
+        &--bold-row-first {
+          border-top: 2px solid $black;
+          border-bottom: 2px solid $black;
+          border-left: 2px solid $black;
+        }
+
+        &--bold-row-last {
+          border-top: 2px solid $black;
+          border-bottom: 2px solid $black;
+          border-right: 2px solid $black;
+        }
+      }
+
+      div {
+        text-align: center;
+        padding-top: 1px;
+      }
+
+      .legend {
+        font-size: $font-size-xs;
+      }
+    }
+
+    .form-fields {
+      margin-top: $spacer/2;
+
+      &_underline {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-bottom: 1px solid $black;
+
+        &--label {
+          font-size: $font-size-xs;
+          position: absolute;
+          bottom: -$spacer;
+          left: calc(80% / 2);
+        }
+
+        &--label-50 {
+          font-size: $font-size-xs;
+          position: absolute;
+          bottom: -$spacer;
+          left: calc(50% / 2);
+        }
+        &--label-0 {
+          font-size: $font-size-xs;
+          position: absolute;
+          bottom: -$spacer;
+          left: 0;
+        }
+      }
+
+      div {
+        padding-top: 1px;
+      }
+    }
+
+    .header {
+      font-size: $font-size-lg;
+      font-weight: bold;
+    }
+  }
+}
+
+.w {
+  &-10 {
+    width: 10%;
+  }
+
+  &-80 {
+    width: 80%;
+  }
+
+  &-90 {
+    width: 90%;
+  }
+
+  &-95 {
+    width: 95%;
+  }
+}
+
